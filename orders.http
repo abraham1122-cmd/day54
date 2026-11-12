@@ -1,0 +1,21 @@
+### Create an order
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+  "customerName": "Abebe",
+  "area": "Bole",
+  "status": "Pending",
+  "dishes": [
+    {
+      "name": "Doro Wat",
+      "price": 450
+    },
+    {
+      "name": "Tibs",
+      "price": 350
+    }
+  ],
+  "total": 800,
+  "teleBirrPhone": "0912345678"
+}
